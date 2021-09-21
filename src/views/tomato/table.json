@@ -1,0 +1,62 @@
+[
+  {
+    "dataId": 1,
+    "dataTitle": "Energy",
+    "dataContent": "74kJ (18 kcal)"
+  },
+  {
+    "dataId": 2,
+    "dataTitle": "Carbohydrates",
+    "dataContent": "3.9 g"
+  },
+  {
+    "dataId": 3,
+    "dataTitle": "- Sugars",
+    "dataContent": "2.6 g"
+  },
+  {
+    "dataId": 4,
+    "dataTitle": "- Dietary fiber",
+    "dataContent": "1.2 g"
+  },
+  {
+    "dataId": 5,
+    "dataTitle": "Fat",
+    "dataContent": "0.2 g"
+  },
+  {
+    "dataId": 6,
+    "dataTitle": "Protein",
+    "dataContent": "0.9 g"
+  },
+  {
+    "dataId": 7,
+    "dataTitle": "Water",
+    "dataContent": "94.5 g"
+  },
+  {
+    "dataId": 8,
+    "dataTitle": "Vitamin A equiv.",
+    "dataContent": "42 μg (5%)"
+  },
+  {
+    "dataId": 9,
+    "dataTitle": "- lutein and zeaxanthin",
+    "dataContent": "123 μg"
+  },
+  {
+    "dataId": 10,
+    "dataTitle": "Vitamin C",
+    "dataContent": "14 mg (17%)"
+  },
+  {
+    "dataId": 11,
+    "dataTitle": "Vitamin E",
+    "dataContent": "0.54 mg (4%)"
+  },
+  {
+    "dataId": 12,
+    "dataTitle": "Potassium",
+    "dataContent": "237 mg (5%)"
+  }
+]
