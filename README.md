@@ -18,14 +18,14 @@ Tech task to convert Tomato PDF page to React Web App.
 <br />
 
 ## Features
-- scalable app
+- Scalable App
 - Custom fav icon
 - Lazyloading for image and components
 - PWA compliant
 - Lighthouse testing pass
 - HTML testing pass
 - CSS testing pass
-- Accesability testing pass
+- Accessibility testing pass
 
 <br />
 
