@@ -12,7 +12,7 @@ $font-size-large: 3.5rem; // h2, h3
 
 
 // font weights
-$font-weight-none: 000;
+$font-weight-none: normal;
 $font-weight-light: 100;
 $font-weight-medium: 700;
 $font-weight-heavy: 900;
@@ -30,6 +30,7 @@ $spacing-xlarge: 2rem;
 $primary-color: #000;
 $primary-color-highlight: yellow;
 $primary-color-background: #FFF;
+
 $secondary-color: rgba(204, 204, 204, 0.39);
 
 

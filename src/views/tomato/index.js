@@ -23,11 +23,13 @@ function TomatoPage() {
 
             <div className="column-1 box">
 
-              <LazyLoad height={167} resize={true}>
+              <LazyLoad height={233} resize={true}>
                 <div className="main-image">
                   <img 
                     src={ImgTomato} 
-                    alt="Tomato" 
+                    alt="Tomato"
+                    width="350"
+                    height="233"
                   />
                 </div>
               </LazyLoad>
