@@ -16,7 +16,7 @@ function TomatoPage() {
 
       <main>
 
-        <h1>The Tomato</h1>
+        <h1 data-testid="h1-title">The Tomato</h1>
 
         <section>
           <div className="container">

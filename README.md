@@ -3,6 +3,10 @@ Tech task to convert Tomato PDF page to React Web App.
 
 <br />
 
+[Live Link](https://practical-brahmagupta-0e79ae.netlify.app//)
+
+<br />
+
 ## Process from PDF to Build
 - Extracted text from pdf tomato page to save to JSON files to support scalability.
 - Optimised tomato image file size from 215kb to 60kb, keeping original high-res dimensions to support retina devices.
@@ -26,6 +30,13 @@ Tech task to convert Tomato PDF page to React Web App.
 <br />
 
 ## Testing Results
+
+React Testing<br />
+Basic test to check page h1 title loads with test id<br />
+![Google Lighthouse](./md/test1.png)
+![Google Lighthouse](./md/test2.png)
+
+
 Google Lighthouse<br />
 ![Google Lighthouse](./md/lighthouse.png)
 
