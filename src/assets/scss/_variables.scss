@@ -1,0 +1,42 @@
+
+//font
+$font-default: 'Times New Roman', Times, serif;
+
+
+// font sizes
+$font-size-base: 16px;
+$font-size-standard: 1rem; // h1
+$font-size-standard-extra: 1.1rem; // h1
+$font-size-medium: 2.3rem; // h2, h3
+$font-size-large: 3.5rem; // h2, h3
+
+
+// font weights
+$font-weight-none: 000;
+$font-weight-light: 100;
+$font-weight-medium: 700;
+$font-weight-heavy: 900;
+
+
+//spacings
+$spacing-vsmall: 0.5rem;
+$spacing-small: 0.75rem;
+$spacing-medium: 1rem;
+$spacing-large: 1.5rem;
+$spacing-xlarge: 2rem;
+
+
+//colors
+$primary-color: #000;
+$primary-color-highlight: yellow;
+$primary-color-background: #FFF;
+$secondary-color: rgba(204, 204, 204, 0.39);
+
+
+//borders
+$border-width-small: 1px;
+$border-width-large: 2px;
+
+
+//breakpoints
+$breakpoint1: 750px;

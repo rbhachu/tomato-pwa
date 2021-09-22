@@ -1,11 +1,12 @@
 
-import LazyLoad from 'react-lazyload';
+import LazyLoad from 'react-lazyload'; // use lazyload for components and image
 import ImgTomato from '../../assets/imgs/VevZ-tomato-web-med.jpg'; // import image
 import tableData from './table.json'; // table JSON data
 import Table2Column from '../../components/table-2-column'; // table component
 import tabData from './tab.json'; // tab JSON data
 import Tab from '../../components/tab'; // tab component
-import Form from '../../components/form'; // tab component
+import Form from '../../components/form'; // form component
+import './tomato.scss';
 
 function TomatoPage() {
   
@@ -22,11 +23,9 @@ function TomatoPage() {
 
             <div className="column-1 box">
 
-
               <LazyLoad height={167} resize={true}>
                 <div className="main-image">
                   <img 
-                    className="Tomato__image" 
                     src={ImgTomato} 
                     alt="Tomato" 
                   />
@@ -54,9 +53,9 @@ function TomatoPage() {
               
                 <LazyLoad once>
                   <Table2Column 
-                    data={tableData} 
-                    tableCaptionHeading={'Red tomatoes, raw'}
-                    tableCaptionSubHeading={'Nutritional value per 100 g (3.5 oz)'}
+                    data={tableData} // table data to load
+                    tableCaptionHeading={'Red tomatoes, raw'} // caption main heading 
+                    tableCaptionSubHeading={'Nutritional value per 100 g (3.5 oz)'} // caption sub heading 
                   />
                 </LazyLoad>
 
@@ -72,8 +71,8 @@ function TomatoPage() {
         <section>
           <LazyLoad once>
             <Tab 
-              data={tabData} 
-              arialabel='Tomato Info Tabs'
+              data={tabData} // tab data to load
+              arialabel='Tomato Info Tabs' // tab description
             />
           </LazyLoad>
         </section>
@@ -84,7 +83,7 @@ function TomatoPage() {
 
           <LazyLoad once>
             <Form 
-              submitButtonName={'Submit'} 
+              submitButtonName={'Submit'}  // submit button text
             />
           </LazyLoad>
         </section>

@@ -1,3 +1,5 @@
+import './table-2-column.scss'; // import css
+
 function Table2Column({ data, tableCaptionHeading, tableCaptionSubHeading }) {
   return (
     <>

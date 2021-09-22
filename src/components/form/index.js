@@ -1,4 +1,4 @@
-//import { useState, useEffect } from 'react';
+import './form.scss'; // import css
 
 function Form({ submitButtonName }) {
 
@@ -7,9 +7,7 @@ function Form({ submitButtonName }) {
   <div className="form">
     <form
       name="signup-form" 
-      //method="POST"
       action="#"
-      //onSubmit={handleSubmit}
     >
         <p>
           <label htmlFor="name">Name</label>

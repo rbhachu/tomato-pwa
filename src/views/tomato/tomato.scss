@@ -1,0 +1,99 @@
+@use '../../assets/scss/variables' as *; // * removes need to call namespace
+@use '../../assets/scss/mixin' as *; // * removes need to call namespace
+
+
+// page content wrapper
+main {
+  margin: $spacing-small $spacing-small $spacing-medium $spacing-small;
+
+  section {
+    margin: $spacing-medium 0 $spacing-large 0;
+  }
+
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  padding: $spacing-vsmall $spacing-vsmall 0 $spacing-vsmall;
+}
+
+// center main image
+.main-image {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 350px;
+    height: auto;
+    margin-bottom: $spacing-medium;
+  }
+
+}
+
+
+/////// col1
+.column-1 {
+  flex-shrink: 0; /* shrinks to 0 to apply 60% width*/
+  flex-basis: 60%; /* sets initial width to 60%*/
+  padding-right: $spacing-medium;
+
+  ul {
+    margin: $spacing-medium 0 $spacing-medium $spacing-xlarge;
+  
+    li {
+      list-style-type: disc;
+    }
+  
+  };
+
+}
+
+
+/////// col2
+.column-2 {
+
+  p {
+    margin-top: $spacing-medium;
+    font-size: $font-size-standard;
+    font-weight: $font-weight-none;
+
+    :any-link {
+      font-size: inherit;
+      color: $primary-color;
+
+      &:hover {
+        background-color: $primary-color-highlight;
+      }
+      
+    }
+  }
+
+}
+
+@media only screen and (max-width: $breakpoint1) {
+
+  .container {
+    flex-direction: column;
+
+    .box {
+      margin: 0 0 $spacing-medium;
+    }
+
+    .column-1 {
+      //padding-right: unset;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+    }
+
+  }
+
+}

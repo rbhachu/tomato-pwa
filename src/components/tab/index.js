@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './tab.scss'; // import css
 
 function Tab({ data, arialabel, tableCaption }) {
 
@@ -45,7 +46,6 @@ const [activeID, setActiveID] = useState(1); // default tab index to show on pag
                             tabIndex="0"
                             aria-labelledby={`tab-${dataId}`}
                             className="tab-pane active"
-                            //className="tab-content"
                             >
                             <div 
                                 className="tab-content" 
@@ -62,7 +62,6 @@ const [activeID, setActiveID] = useState(1); // default tab index to show on pag
                             tabIndex="0"
                             aria-labelledby={`tab-${dataId}`}
                             className="tab-pane"
-                            //className="tab-content hidden"
                             hidden
                         >
                             <div 

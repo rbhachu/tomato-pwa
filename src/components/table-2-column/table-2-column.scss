@@ -1,0 +1,39 @@
+@use '../../assets/scss/variables' as *; // * removes need to call namespace
+
+table {
+    font-size: inherit;
+    width: 100%;
+    border-collapse: collapse; // removes table borders between tr cells
+  
+    caption {
+      text-align: left;
+      margin-bottom: $spacing-medium;
+  
+      .sub-heading {
+        font-size: $font-size-standard-extra;
+        font-weight: $font-weight-heavy;
+        display: block;
+      }
+      
+    }
+  
+    .table-header {
+      background-color: $secondary-color;
+    }
+  
+    // table header/data
+    th, td {
+      padding: 0.5rem;
+      width: 50%;
+      font-size: $font-size-standard;
+      font-weight: $font-weight-none;
+    }
+  
+    // table data highlight hover
+    tr {
+      &.table-data:hover {
+        background-color: $primary-color-highlight;
+      }
+    }
+  
+  }

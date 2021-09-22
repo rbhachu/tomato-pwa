@@ -1,4 +1,4 @@
-import './assets/scss/App.scss';
+//import './assets/scss/App.scss';
 import TomatoPage from './views/tomato/';
 
 function App() {

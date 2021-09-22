@@ -1,0 +1,60 @@
+@use '../../assets/scss/variables' as *; // * removes need to call namespace
+
+// tab button mixin
+@mixin tab-button($t-color, $t-weight, $t-border-w, $t-border-c) {
+  background-color: $t-color;
+  font-weight: $t-weight;
+  border: $t-border-w solid $t-border-c;
+}
+
+.tabs {
+
+    .tab-list {
+      display: flex;
+  
+      button {
+        width: 100%;
+      }
+  
+    }
+  
+    .tab-active, .tab-inactive {
+      padding: $spacing-vsmall;
+      font-size: $font-size-standard-extra;
+      margin-bottom: $spacing-medium;
+    }
+  
+    .tab-active {
+      @include tab-button($primary-color-background, $font-weight-heavy, $border-width-large, $primary-color);
+    }
+    .tab-inactive {
+      @include tab-button($secondary-color, $font-weight-none, $border-width-small, $secondary-color);
+
+      &:hover {
+        background-color: $primary-color-highlight;
+      }
+  
+    }
+  
+    .tab-content {
+      display: flex;
+    }
+    .tab-content > .tab-pane {
+      display: block; /* undo "display: none;" */
+      visibility: hidden;
+      margin-right: -100%;
+      width: 100%;
+    }
+    .tab-content > .active {
+      visibility: visible;
+      padding: 1.5rem;
+      border: $border-width-large solid #000;
+  
+      a:hover {
+        background-color: $primary-color-highlight;
+      }
+  
+    }
+  
+  }
+  
