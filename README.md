@@ -31,25 +31,25 @@ Tech task to convert Tomato PDF page to React Web App.
 
 ## Testing Results
 
-React Testing<br />
+__React Testing__<br />
 Basic test to check page h1 title loads with test id<br />
 ![Google Lighthouse](./md/test1.png)
 ![Google Lighthouse](./md/test2.png)
 
 
-Google Lighthouse<br />
+__Google Lighthouse__<br />
 ![Google Lighthouse](./md/lighthouse.png)
 
 
-[Accessiblity Testing Link](https://wave.webaim.org/report#/https://practical-brahmagupta-0e79ae.netlify.app/)
+__[Accessiblity Testing Link](https://wave.webaim.org/report#/https://practical-brahmagupta-0e79ae.netlify.app/)__<br />
 ![Google Lighthouse](./md/access.png)
 
 
-[CSS Testing Link](https://jigsaw.w3.org/css-validator/validator?profile=css3&warning=0&uri=https://practical-brahmagupta-0e79ae.netlify.app/)
+__[CSS Testing Link](https://jigsaw.w3.org/css-validator/validator?profile=css3&warning=0&uri=https://practical-brahmagupta-0e79ae.netlify.app/)__<br />
 ![Google Lighthouse](./md/css.png)
 
 
-[HTML Testing Link](https://validator.w3.org/nu/?doc=https://practical-brahmagupta-0e79ae.netlify.app/)
+__[HTML Testing Link](https://validator.w3.org/nu/?doc=https://practical-brahmagupta-0e79ae.netlify.app/)__<br />
 ![Google Lighthouse](./md/html.png)
 
 
