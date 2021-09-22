@@ -14,6 +14,7 @@ Tech task to convert Tomato PDF page to React Web App.
 <br />
 
 ## Features
+- scalable app
 - Custom fav icon
 - Lazyloading for image and components
 - PWA compliant
@@ -25,20 +26,19 @@ Tech task to convert Tomato PDF page to React Web App.
 <br />
 
 ## Testing Results
-Google Lighthouse
+Google Lighthouse<br />
 ![Google Lighthouse](./md/lighthouse.png)
 
 
-[Accessiblity](https://wave.webaim.org/report#/https://practical-brahmagupta-0e79ae.netlify.app/)
+[Accessiblity Testing Link](https://wave.webaim.org/report#/https://practical-brahmagupta-0e79ae.netlify.app/)
 ![Google Lighthouse](./md/access.png)
 
 
-
-[CSS](https://jigsaw.w3.org/css-validator/validator?profile=css3&warning=0&uri=https://practical-brahmagupta-0e79ae.netlify.app/)
+[CSS Testing Link](https://jigsaw.w3.org/css-validator/validator?profile=css3&warning=0&uri=https://practical-brahmagupta-0e79ae.netlify.app/)
 ![Google Lighthouse](./md/css.png)
 
 
-[HTML](https://validator.w3.org/nu/?doc=https://practical-brahmagupta-0e79ae.netlify.app/)
+[HTML Testing Link](https://validator.w3.org/nu/?doc=https://practical-brahmagupta-0e79ae.netlify.app/)
 ![Google Lighthouse](./md/html.png)
 
 
